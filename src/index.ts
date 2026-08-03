@@ -1,3 +1,7 @@
+export {Assert} from './assert';
+export {AssertError} from './assert/error';
+export type {AssertErrorInit} from './assert/error/init';
+export type {AssertMatcher} from './assert/matcher';
 export {CliParser} from './cli/parser';
 export type {CliParserInit} from './cli/parser/init';
 export {Outcome} from './outcome';
@@ -11,6 +15,8 @@ export {type ParserTypeInfo, parserTypeInfo} from './parser/type/info';
 export type {ParserTypeMember} from './parser/type/member';
 export {QueryParser} from './query/parser';
 export type {QueryParserInit} from './query/parser/init';
+export {UaParser} from './ua/parser';
+export type {UaParserResult} from './ua/parser/result';
 
 export function hello(name: string): string {
 	return `Hello, ${name}!`;
