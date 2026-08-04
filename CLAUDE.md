@@ -12,3 +12,11 @@
 ## File Structure & Naming
 
 - Directives applying to file names & file structure live here: `<root>/_directives/project-file-structure-and-naming.md`. Ignore them until the current session needs to create, rename, or move project files.
+
+
+# Project Goals
+* Provide common utilities without pulling in a huge dependency graph. 
+
+# High-level Code Rules
+* No dependencies. Most of the systems in this repo simple and should not require any external NPM packages. 
+* Write code & systems that can safely run in `WebWorker`, `Node`, and `Browser` environments.
