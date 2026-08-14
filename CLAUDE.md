@@ -15,7 +15,7 @@
 
 
 # Project Goals
-* Provide common utilities without pulling in a huge dependency graph. 
+* Common self-contained utilities.
 
 # High-level Code Rules
 * No dependencies. Most of the systems in this repo simple and should not require any external NPM packages. 

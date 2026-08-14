@@ -17,6 +17,14 @@ export {QueryParser} from './query/parser';
 export type {QueryParserInit} from './query/parser/init';
 export {UaParser} from './ua/parser';
 export type {UaParserResult} from './ua/parser/result';
+export {UrlParser} from './url/parser';
+export type {UrlParserResult} from './url/parser/result';
+export {Uuid, uuid} from './uuid';
+export {uuidRng} from './uuid/rng';
+export {type UuidAlphabetId, uuidAlphabets} from './uuid/alphabets';
+export {cyrb53} from './cyrb53';
+export {wrapWords} from './wrap/words';
+export type {WrapWordsOptions} from './wrap/words/options';
 
 export function hello(name: string): string {
 	return `Hello, ${name}!`;

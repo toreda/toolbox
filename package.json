@@ -1,5 +1,5 @@
 {
-  "name": "toolbox",
+  "name": "@toreda/nodep-toolbox",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/cjs/index.js",
@@ -61,8 +61,5 @@
     "ts-node": "^10.9.2",
     "tsc-alias": "^1.9.1",
     "typescript": "^7.0.2"
-  },
-  "dependencies": {
-    "@toreda/shared-types": "^3.0.0"
   }
 }

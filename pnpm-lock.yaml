@@ -206,10 +206,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@toreda/shared-types':
-        specifier: ^3.0.0
-        version: 3.0.0
     devDependencies:
       '@swc/core':
         specifier: ^1.15.47
@@ -742,9 +738,6 @@ packages:
 
   '@toreda/prettier-config@1.0.1':
     resolution: {integrity: sha512-YE13umi84GlKSOVPAEN1WRsoAGPjT3C3VmOGORtQAeZm5bqayL7XRHQM/ifXaF1ZWSkzeEAXYEnFflmIen/4kw==}
-
-  '@toreda/shared-types@3.0.0':
-    resolution: {integrity: sha512-NDJ2P/fwlDcSb3mLlB8iHS3VKhYVx6Vi2Jc3Ve52xrAndVIHCHjo7iYJbTYKlL2HF9nQIJ4xZtnVFA4lcgmOYw==}
 
   '@tsconfig/node10@1.0.12':
     resolution: {integrity: sha512-UCYBaeFvM11aU2y3YPZ//O5Rhj+xKyzy7mvcIoAjASbigy8mHMryP5cK7dgjlz2hWxh1g5pLw084E0a/wlUSFQ==}
@@ -1843,11 +1836,6 @@ packages:
   makeerror@1.0.12:
     resolution: {integrity: sha512-JmqCvUhmt43madlpFzG4BQzG2Z3m6tvQDNKdClZnO3VbIudJYmxsT0FNJMeiB2+JTSlTQTSbU8QdesVmwJcmLg==}
 
-  marked@4.3.0:
-    resolution: {integrity: sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==}
-    engines: {node: '>= 12'}
-    hasBin: true
-
   merge-stream@2.0.0:
     resolution: {integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==}
 
@@ -2869,10 +2857,6 @@ snapshots:
       typescript-eslint: 8.65.0(eslint@10.8.0(supports-color@8.1.1))(supports-color@8.1.1)(typescript@7.0.2)
 
   '@toreda/prettier-config@1.0.1': {}
-
-  '@toreda/shared-types@3.0.0':
-    dependencies:
-      marked: 4.3.0
 
   '@tsconfig/node10@1.0.12': {}
 
@@ -4068,8 +4052,6 @@ snapshots:
   makeerror@1.0.12:
     dependencies:
       tmpl: 1.0.5
-
-  marked@4.3.0: {}
 
   merge-stream@2.0.0: {}
 
