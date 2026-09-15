@@ -4,7 +4,7 @@
  * A test contradicting the spec is a wrong test; update the spec in the
  * same change if the parser's function deliberately changes.
  */
-import {UrlParser} from 'src/url/parser';
+import {UrlParser} from '../../src/url/parser';
 
 describe('UrlParser', () => {
 	describe('parse', () => {

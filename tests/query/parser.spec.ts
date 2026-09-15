@@ -1,4 +1,4 @@
-import {QueryParser} from 'src/query/parser';
+import {QueryParser} from '../../src/query/parser';
 
 function messages(errors: Error[]): string[] {
 	return errors.map((error) => error.message);

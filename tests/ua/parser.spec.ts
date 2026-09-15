@@ -1,4 +1,4 @@
-import {UaParser} from 'src/ua/parser';
+import {UaParser} from '../../src/ua/parser';
 
 const UA = {
 	chromeWindows:
