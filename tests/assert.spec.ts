@@ -1,5 +1,5 @@
-import {Assert} from 'src/assert';
-import {AssertError} from 'src/assert/error';
+import {Assert} from '../src/assert';
+import {AssertError} from '../src/assert/error';
 
 /** Run `fn` and return the AssertError it throws. Fails the test when it doesn't throw one. */
 function capture(fn: () => unknown): AssertError {
