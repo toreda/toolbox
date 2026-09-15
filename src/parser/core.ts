@@ -318,7 +318,10 @@ export abstract class ParserCore<ArgsT = Record<string, unknown>> {
 			);
 		}
 
-		if (option.maxLength !== undefined && (!Number.isInteger(option.maxLength) || option.maxLength <= 0)) {
+		if (
+			option.maxLength !== undefined &&
+			(!Number.isInteger(option.maxLength) || option.maxLength <= 0)
+		) {
 			this.schemaErrors.push(
 				`Schema option '${key}' maxLength must be an integer greater than 0 (got ${option.maxLength}).`
 			);
