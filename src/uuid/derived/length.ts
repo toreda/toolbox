@@ -1,5 +1,4 @@
-import { Constants } from "../../constants";
-
+import {Constants} from '../../constants';
 
 /**
  * Shortest length whose total entropy meets the floor for an alphabet:
